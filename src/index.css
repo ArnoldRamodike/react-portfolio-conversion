@@ -338,12 +338,17 @@ body.light-theme{
   height: 293px;
   /* background: linear-gradient(180deg, hsla(var(--first-hue), var(--sat), var(--lig), 1),
                              hsal(var(--first-hue), var(--sat), var(--lig), 1)); */
-  background: linear-gradient(lightpink, lightblue);
+  background: linear-gradient(Pink, lightblue);
   border-radius: 10rem 10rem 1rem 1rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   overflow: hidden;
+}
+
+.work___more{
+ display: flex;
+ gap: 20px;
 }
 
 .home__buttons{
@@ -873,7 +878,7 @@ body.light-theme{
 
 .footer__copy{
   display: block;
-  margin-top: 4.5rem;
+  margin-top: 1.5rem;
   color: var(--container-color);
   text-align: center;
   font-size: var(--small-font-size);
